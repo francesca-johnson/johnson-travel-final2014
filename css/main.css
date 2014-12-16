@@ -1,0 +1,340 @@
+/**********************************
+GENERAL
+***********************************/
+
+body {
+ font-family: 'Roboto Slab', serif;
+ background: url("../img/boom.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+
+
+/**********************************
+HEADING
+***********************************/
+
+header {
+  float: left;
+  margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Changa One', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.75em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #CC9966;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7
+}
+
+
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  text-align: left;
+}
+
+.secondary {
+  text-align: left;
+}
+
+
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+
+/**********************************
+PAGE: Event
+***********************************/
+
+.body {
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+
+
+
+/**********************************
+Table
+***********************************/
+
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+}
+
+table {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.4em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+  background: #8a97a0;
+  color: #FFF;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+tr:nth-child(even) {
+  background: #e8eeef;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+  color: #8a97a0;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+/* orange header */
+header {
+  background: #CC9966;
+  border-color: #FF7B59;
+}
+
+/* nav background on mobile */
+nav {
+  background: #CC9966;
+}
+
+/* logo text */
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: gray;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+}
+
+/*****************
+  Form
+*****************/
+input:focus {
+  box-shadow: 0 0 3000px 3000px rgba(151, 125, 48, 0.3);
+  position: relative;
+  z-index: 99999;
+}
+
+form {
+  font-weight: bold;
+  padding: 20px;
+  color: #333;
+  font-size: 12px;
+  letter-spacing: -1px;
+}
+input {
+  font-size: 21px;
+  font-weight: bold;
+  display: block;
+  margin: 20px 0;
+  outline:0;
+  border:0;
+  padding: 10px 10px;
+  font-size: 13px;
+  width: 300px;
+  border-radius: 4px;
+  box-shadow:inset 0 0 2px rgba(0,0,0,0.5);
+}
+.button {
+   border-top: 1px solid #d1dba2;
+   background: #6e7324;
+}
+
+
+
+
+
+
+
+
+
+
+
+
